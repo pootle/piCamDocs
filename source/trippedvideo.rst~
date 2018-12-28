@@ -1,0 +1,29 @@
+tripped video
+=============
+
+The tripped video tab controls and enables video recordings to be triggered by other activities. So far this means cpu based movement 
+detection or using external hardware that can interface with a gpio input pin.
+
+It allows a few seconds of video from before the trigger to be combined with video that runs until several seconds after the last trigger
+occurs.
+
+It works by continuously recording to a circular buffer, and when triggered, it switches recording to a temporary file, and saves (part of)
+the circular buffer to another temprary file, and finishes by using MP4Box to merge the 2 files into an mp4 file.
+
+triped video fields
+-------------------
+
+state
+    Shows the current state of this stream. See :ref:`state field for details <common-field-state>`.
+
+stream resolution
+    The feed from the camera (which can be of much higher resolution) is scaled to this size. 
+    See :ref:`stream resolution field for details <common-field-stream-res>`.
+
+pre-trigger record time
+    This is the number of seconds from before the trigger happens to use at the start of the video. The time is approximate and can vary, expecially
+    at low frame rates.
+
+post trigger record time
+    The video keeps running until this number of seconds after the last trigger time.
+
