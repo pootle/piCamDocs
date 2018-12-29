@@ -5,6 +5,8 @@ This gpio detect tab allows use of a gpio port as a trigger, typically to trigge
 
 This enables a PIR sensor, a button or any other external hardware capable of interfacing to gpio to be used as a trigger.
 
+.. image:: _static/gpiodetecttab1.png
+
 gpio move fields
 ----------------
 

@@ -13,6 +13,8 @@ Reducing resolution also helps if there are network problems (such as a poor wif
 Note that on the main screen, the live stream is always the same size on screen - even when changed here. The stream
 is resized in the web browser to do this. This reduces network bandwidth and load on the Raspberry Pi.
 
+.. image:: _static/livestreamtab1.png
+
 displaying the live stream in other web pages
 ---------------------------------------------
 

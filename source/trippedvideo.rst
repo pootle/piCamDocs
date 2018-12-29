@@ -10,6 +10,8 @@ occurs.
 It works by continuously recording to a circular buffer, and when triggered, it switches recording to a temporary file, and saves (part of)
 the circular buffer to another temprary file, and finishes by using MP4Box to merge the 2 files into an mp4 file.
 
+.. image:: _static/trippedvideo1.png
+
 tripped video fields
 --------------------
 

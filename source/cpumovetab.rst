@@ -16,6 +16,8 @@ When movement is detected, the 'triggers' field is incremented and the 'last tri
 
 Changes to this field are notified to the main application, which will trigger the 'triggered video' stream if it is active.
 
+.. image:: _static/cpumovetab1.png
+
 Overall detection process
 -------------------------
 

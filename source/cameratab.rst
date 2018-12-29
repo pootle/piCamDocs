@@ -3,6 +3,8 @@ Camera tab
 
 The camera tab shows the controls available for the camera.
 
+.. image:: _static/cameratab1.png
+
 camera resolution
     The resolution used when opening the camera. This defaults to 1/2 the size of the camera's full resolution.
     This reduces the overall load, but still gives the full field of view of the camera. Various other resolutions
