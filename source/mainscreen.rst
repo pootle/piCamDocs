@@ -48,12 +48,14 @@ controls are in the live stream tab (see tabbed panels below or the detailed des
 The live view can be stopped at any time by clicking on the 'X' by the top right of the live view area.
 
 Immediately above the live view is the 'edit mask' button that overlays the live view with a mask used by the CPU 
-movement detection activity. This is explained in TBD.
+movement detection activity. This is explained in :ref:`mask editing <mask-edit-top>`.
 
 Tabbed panels
 -------------
 
 There are more detailed control panels for the various functions in the tabbed panel area. Initially only the headings are
-shown, clicking on any heading will display the relevant controls below the headings.
+shown, clicking on any heading will highlight the heading and display the relevant controls below the headings.
+
+.. image:: _static/maintabs1.png
 
 The following pages explain each of the tabs.

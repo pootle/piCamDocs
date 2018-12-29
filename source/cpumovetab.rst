@@ -1,5 +1,5 @@
-cpu move
-========
+cpu move tab
+============
 
 The cpu move tab shows the settings and status for the cpu based movement detection.
 
@@ -65,6 +65,8 @@ channel for test
 
 image masks folder
     The folder the mask images are stored in - current fixed in the fields initialisation
+
+.. _cpumovetab-use-image-mask:
 
 use image mask
     The file in the image masks folder to use as a mask before checking for movement. This can also be 'off' if no mask is to be used.

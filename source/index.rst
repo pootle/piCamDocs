@@ -14,6 +14,8 @@ and much of the camera related code is based on examples from that module.
 This is the user documentation, it is for anyone that wants to use pootlecam without delving into the python
 that makes it all work. 
 
+.. image:: _static/main1.png
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:

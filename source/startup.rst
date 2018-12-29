@@ -81,7 +81,7 @@ Test running
 Before rebooting, or if you don't have the start script run automatically, you can run the program interactively. This is a slight 
 variation on the command used in start.sh as it logs messages to the console.
 
-Remember to cd piCameraWeb (or whatever folder you installedto).::
+Remember to cd piCameraWeb (or whatever folder you installed to).::
 
     python3 webserv.py -v 10 -c dummyConfig.py
 
