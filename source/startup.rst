@@ -25,7 +25,12 @@ picamera fix
 There seems to be a problem sometimes in picamera, it is `described here <https://github.com/waveform80/picamera/issues/535>`_.
 The small edit below will prevent this from causing problems until this is either fixed or a better workaround is in place::
 
-    sudo nano /usr/local/lib/python3.5/dist-packages/picamera/streams.py
+    sudo nano -ET4 /usr/local/lib/python3.5/dist-packages/picamera/streams.py
+
+
+Note that by default nano will insert tab characters if you use the tab key - which python won't like!. The -ET4 prevents this.
+`Also see this fix <https://stackoverflow.com/questions/11173769/how-to-make-the-tab-character-4-spaces-instead-of-8-spaces-in-nano>`_.
+
 
 replace line 521, which should look like this::
 
