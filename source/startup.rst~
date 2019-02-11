@@ -8,10 +8,7 @@ Setup using the script
 ----------------------
 
 This setup can be used on a fresh build of raspbian, and includes an update of Raspbian at the start of the script.
-You still need to use raspi-config to set the network name, change the pi user's password and enable the camera. 
-
-The time from first power on of a fresh install to complete the script is about 11 minutes on a Raspberry pi Zero, but 
-this will depend on how many updates have to be installed.
+You still need to use raspi-config to set the network name, change the pi user's password and enable the camera.
 
 If you installed Raspbian lite then just login, if you have the full version of Raspbian, start a shell window.
 

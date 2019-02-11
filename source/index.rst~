@@ -1,3 +1,8 @@
+.. pootlecam documentation master file, created by
+   sphinx-quickstart on Sun Dec 23 22:41:20 2018.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
 Welcome to pootlecam's documentation!
 =====================================
 Pootlecam is a python program to use a Raspberry Pi camera that can do various camera related things such
